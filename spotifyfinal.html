@@ -1,0 +1,1784 @@
+<html>
+<title>Spotify</title>
+<script>
+singer=[,"arjitsingh.jpg","arrahman.jpg","nehakakkar.jpg","kk.jpg","pritam.jpg"]
+playbutton=[,"playbutton.jpg","playbutton.jpg","playbutton.jpg","playbutton.jpg","playbutton.jpg"]
+singername=[,"Arijit singh"," A.R.rahman"," Neha Kakkar"," KK"," Pritam"]
+album=[,"animal.jpg","ektharaja.jpg","stillrolin.jpg","aashiqui.jpg","moosetape.jpg"]
+song=[,"animalsong1.mp3.mp3","animalsong2.mp3.mp3","animalsong3.mp3.mp3","animalsong4.mp3.mp3","animalsong5.mp3.mp3","animalsong6.mp3.mp3","animalsong7.mp3.mp3","animalsong8.mp3.mp3" ]
+searchitems=[,"podcast.jpg","liveevents.jpg","madeforyou.jpg","newrelease.jpg","hindi.jpg","punjabi.jpg","tamil.jpg","ghazals.jpg"]
+
+searchsongs=[,"god Damn","arjan vaily","hua main","satranga","papa meri jaan","kashmir","phele bhi main","sarri duniya jala denge","haiwaan","still rollin","tum hi ho"]
+searchartists=[,"arijit singh","neha kakkar","kk","pritam","a.r rahman"]
+username=["tanyagupta","ramlal125@gmail.com"]
+password=["12345","67890","","","","","","","",""]
+function show()
+{
+for(i=1;i<=5;i++)
+{
+document.getElementById("it"+i).src=singer[i];
+document.getElementById("itt"+i).src=playbutton[i];
+document.getElementById("itttt"+i).src=album[i];
+document.getElementById("ittttt"+i).src=playbutton[i];
+}
+for(i=1;i<=8;i++)
+{
+document.getElementById("s"+i).src=searchitems[i];
+}
+}
+function login()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("songs") .style.display="none";
+document.getElementById("artists") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="grid";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+function signup()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("songs") .style.display="none";
+document.getElementById("artists") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m10") .style.display="grid";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m11") .style.display="none";
+}
+function search()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="grid";
+document.getElementById("songs") .style.display="none";
+document.getElementById("artists") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+
+
+function a1()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+
+document.getElementById("m3") .style.display="grid";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+function a2()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+document.getElementById("m4") .style.display="grid";
+document.getElementById("m3") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+function a3()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="grid";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+function as1()
+{
+	document.getElementById("animalau1").src="animalsong1.mp3.mp3 ";
+	animalau1.play();
+	animalau2.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+	
+}
+function as2()
+{
+	document.getElementById("animalau2").src="animalsong2.mp3.mp3";
+	animalau2.play();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+}
+function as3()
+{
+	document.getElementById("animalau3").src="animalsong3.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.play();
+	animalau4.pause();animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+}
+function as4()
+{
+	document.getElementById("animalau4").src="animalsong4.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.play();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+}
+function as5()
+{
+	document.getElementById("animalau5").src="animalsong5.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.play();
+	animalau6.pause();
+	animalau7.pause();
+
+}
+function as6()
+{
+	document.getElementById("animalau6").src="animalsong6.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.play();
+	animalau7.pause();
+	animalau8.pause();
+}
+function as7()
+{
+	document.getElementById("animalau7").src="animalsong7.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau7.play();
+	animalau6.pause();
+	animalau8.pause();
+}
+
+function as8()
+{
+	document.getElementById("animalau8").src="animalsong8.mp3.mp3";
+	animalau2.pause();
+	animalau1.pause();
+	ektharajaau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau8.play();
+	animalau6.pause();
+	animalau7.pause();
+	animalau8.pause();
+}
+function es1()
+{
+	document.getElementById("ektharajaau1").src="ektharajasong1.mp3.mp3";
+	ektharajaau1.play();
+	animalau2.pause();
+	animalau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+	animalau8.pause();
+}
+function ss1()
+{
+	document.getElementById("stillrolinau1").src="stillrolinsong1.mp3.mp3";
+	ektharajaau1.pause();
+	animalau2.pause();
+	animalau1.pause();
+	stillrolinau1.play();
+	aashiquiau1.pause();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+	animalau8.pause();
+}
+function a4()
+{
+document.getElementById("singer") .style.display="none";
+document.getElementById("playbutton") .style.display="none";
+document.getElementById("playbutton1") .style.display="none";
+document.getElementById("album") .style.display="none";
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="none";
+document.getElementById("m6") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="none";
+
+}
+function aas1()
+{
+	document.getElementById("aashiquiau1").src="aashiquisong1.mp3.mp3";
+	ektharajaau1.pause();
+	animalau2.pause();
+	animalau1.pause();
+	stillrolinau1.pause();
+	aashiquiau1.play();
+	animalau3.pause();
+	animalau4.pause();
+	animalau5.pause();
+	animalau6.pause();
+	animalau7.pause();
+	animalau8.pause();
+}
+function home()
+{
+document.getElementById("singer") .style.display="grid";
+document.getElementById("playbutton") .style.display="grid";
+document.getElementById("playbutton1") .style.display="grid";
+document.getElementById("album") .style.display="grid";
+document.getElementById("m3") .style.display="none";
+document.getElementById("m4") .style.display="none";
+document.getElementById("m5") .style.display="none";
+document.getElementById("m6") .style.display="none";
+document.getElementById("m7") .style.display="none";
+document.getElementById("m8") .style.display="none";
+document.getElementById("m9") .style.display="none";
+document.getElementById("m10") .style.display="none";
+document.getElementById("loginname1") .style.display="grid";
+document.getElementById("m11") .style.display="none";
+}
+function searchbox()
+{
+document.getElementById("searchimg") .style.display="none";
+document.getElementById("searchimg2") .style.display="none";
+document.getElementById("songs") .style.display="grid";
+document.getElementById("artists") .style.display="grid";
+}
+function songs()
+{
+
+		str=document.getElementById("txt1").value
+		str=str.toLowerCase()
+		ctr=0
+		for(i=1;i<=11;i++)
+		{
+		document.getElementById ("t"+i).innerHTML=""
+
+		    if (document.getElementById("txt1").value.length!=0)
+			{
+				if (searchsongs[i].startsWith(str))
+				{	
+				
+					document.getElementById("t"+i).innerHTML=document.getElementById("t"+i).innerHTML+searchsongs[i];
+               }
+           }
+        }
+	}	
+	function artists()
+{
+
+		str=document.getElementById("txt1").value
+		str=str.toLowerCase()
+		ctr=0
+		for(i=1;i<=5;i++)
+		{
+		document.getElementById ("t"+i).innerHTML=""
+
+		    if (document.getElementById("txt1").value.length!=0)
+			{
+				if (searchartists[i].startsWith(str))
+				{	
+				
+					document.getElementById("t"+i).innerHTML=document.getElementById("t"+i).innerHTML+searchartists[i];
+               }
+           }
+        }
+	}	
+
+
+function songgplay()
+{
+if(c==1)
+{
+document.getElementById("playsong1").src="ektharajasong1.mp3.mp3";
+playsong1.play();
+}
+if(c==2)
+{
+document.getElementById("playsong1").src="animalsong1.mp3.mp3";
+playsong1.play();
+}
+if(c==3)
+{
+document.getElementById("playsong1").src="animalsong2.mp3.mp3";
+playsong1.play();
+}
+if(c==4)
+{
+document.getElementById("playsong1").src="animalsong3.mp3.mp3";
+playsong1.play();
+}
+if(c==5)
+{
+document.getElementById("playsong1").src="animalsong4.mp3.mp3";
+playsong1.play();
+}
+if(c==6)
+{
+document.getElementById("playsong1").src="animalsong5.mp3.mp3";
+playsong1.play();
+}
+if(c==7)
+{
+document.getElementById("playsong1").src="animalsong6.mp3.mp3";
+playsong1.play();
+}
+if(c==8)
+{
+document.getElementById("playsong1").src="aashiquisong1.mp3.mp3";
+playsong1.play();
+}
+if(c==9)
+{
+document.getElementById("playsong1").src="animalsong8.mp3.mp3";
+playsong1.play();
+}
+if(c==10)
+{
+document.getElementById("playsong1").src="animalsong7.mp3.mp3";
+playsong1.play();
+}
+if(c==11)
+{
+document.getElementById("playsong1").src="stillrolinsong1.mp3.mp3";
+playsong1.play();
+}
+}
+
+
+function  t1()
+{
+c=0;
+window.alert("hellllllllllllllllo");
+str2=document.getElementById("t1").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvaileytext").innerHTML="God Damn(From Ek tha raja)"
+document.getElementById("songg").innerHTML="God Damn"
+
+
+document.getElementById ("arjanvailey1").src="ektharaja.jpg";
+
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=1;
+}
+
+function  t2()
+{
+str2=document.getElementById("t2").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Arjan Vailly(From ANIMAL)";
+document.getElementById("songg").innerHTML="Arjan Vailly"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=2;
+}
+function t3()
+{
+str2=document.getElementById("t3").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Hua Main(from ANIMAL)";
+document.getElementById("songg").innerHTML="Hua Main"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=3;
+}
+function t4()
+{
+str2=document.getElementById("t4").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Satranga(from ANIMAL)";
+document.getElementById("songg").innerHTML="Satranga"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=4;
+}
+function t5()
+{
+str2=document.getElementById("t5").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Papa meri jaan(from ANIMAL)";
+document.getElementById("songg").innerHTML="papa meri jaan"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=5;
+}
+function t6()
+{
+str2=document.getElementById("t6").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="kashmir(from ANIMAL)";
+document.getElementById("songg").innerHTML="Kashmir"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=6;
+}
+function t7()
+{
+str2=document.getElementById("t7").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Phele bhi main(from ANIMAL)";
+document.getElementById("songg").innerHTML="Phele bhi main"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=7;
+}
+function t11()
+{
+str2=document.getElementById("t11").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="aashiqui.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Tum hi ho(from Aashiqui 2)";
+document.getElementById("songg").innerHTML="Tum hi ho"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=8;
+}
+function t9()
+{
+str2=document.getElementById("t9").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Haiwaan(from ANIMAL)";
+document.getElementById("songg").innerHTML="Haiwaan"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=9;
+}
+function t8()
+{
+str2=document.getElementById("t8").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="animal.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Saari duniya jala denge(from ANIMAL)";
+document.getElementById("songg").innerHTML="Saari duniya jala denge"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=10;
+}
+function t10()
+{
+str2=document.getElementById("t10").innerHTML
+document.getElementById ("txt1").value=str2
+document.getElementById ("arjanvailey1").src="stillrollin.jpg";
+document.getElementById ("arjanvaileytext").innerHTML="Still Rollin";
+document.getElementById("songg").innerHTML="Still Rollin"
+document.getElementById("m8") .style.display="grid";
+document.getElementById("m7") .style.display="none";
+c=11;
+}
+
+function loginbutton()
+{
+document.getElementById("login1") .style.display="none";
+flg=0;
+p=document.getElementById("logintextbox1").value
+r=document.getElementById("logintextbox2").value
+for(i=0;i<10;i++)
+{
+if ((p===(username[i]))&&(r===(password[i])))
+{
+flg=1;
+document.getElementById("loginname1").value=p;
+window.alert(p);
+}
+}
+if(flg==1)
+{
+window.alert("login successfull");
+document.getElementById("m9") .style.display="none";
+document.getElementById("singer") .style.display="grid";
+document.getElementById("playbutton") .style.display="grid";
+document.getElementById("playbutton1") .style.display="grid";
+document.getElementById("album") .style.display="grid";
+
+
+}
+else
+{
+
+window.alert("no user found");
+}
+
+
+}
+function signupbutton()
+{
+flag=0;
+for(i=2;i<=10;i++)
+{
+username[i]=document.getElementById("signuptextbox1").value
+password[i]=document.getElementById("signuptextbox2").value
+
+flag=1;
+}
+if(flag==1)
+{
+window.alert("sign in complete")
+document.getElementById("m10") .style.display="none";
+document.getElementById("m11") .style.display="grid";
+}
+
+}
+function next()
+{
+p=document.getElementById("name1").value;
+
+document.getElementById("singer") .style.display="grid";
+document.getElementById("playbutton") .style.display="grid";
+document.getElementById("playbutton1") .style.display="grid";
+document.getElementById("album") .style.display="grid";
+document.getElementById("m11") .style.display="none";
+document.getElementById("login1") .style.display="none";
+document.getElementById("signup1") .style.display="none";
+document.getElementById("displaysong1").innerHTML=p;
+window.alert(p);
+
+}
+
+</script>
+<style>
+*{
+margin:0;
+padding;0;
+overflow:none;
+}
+main
+{
+display:grid;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+.main2
+{
+display:grid;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:40%;
+}
+main3
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main9
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main10
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main11
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main8
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main7
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main4
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main5
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+main6
+{
+display:none;
+grid-template-rows:repeat(14,70px);
+grid-template-columns:20% 20% 20% 20% 20%;
+}
+.playbutton
+{
+margin-top:170px;
+margin-left:210px;
+}
+.album
+{
+margin-top:350px;
+margin-left:230px;
+
+}
+.a1
+{
+position:relative;
+z-index:1;
+}
+.a1:hover
+{
+z-index:0;
+}
+
+.a2
+{
+position:relative;
+z-index:1;
+}
+.a2:hover
+{
+z-index:0;
+}
+
+.a3
+{
+position:relative;
+z-index:1;
+}
+.a3:hover
+{
+z-index:0;
+}
+.a4
+{
+position:relative;
+z-index:1;
+}
+.a4:hover
+{
+z-index:0;
+}
+.a5
+{
+position:relative;
+z-index:1;
+}
+.a5:hover
+{
+z-index:0;
+}
+.playbutton1
+{
+margin-top:530px;
+margin-left:120px;
+position:relative;
+
+}
+.sss1
+{
+margin-top:30px;
+
+}
+#songg{
+width:200px;
+color:white;
+margin-left:-400px;
+}
+.home
+{
+
+background-color:#1c1c1c;
+width:340px;
+height:750px;
+margin-left:-300px;
+position:fixed;
+z-index:0;
+}
+.logo
+{
+
+margin-left:-250px;
+position:fixed;
+width:100px;
+height:50px;
+z-index:1;
+}
+.homelogo
+{
+margin-left:-240px;
+margin-top:80px;
+width:30px;
+height:30px;
+position:fixed;
+z-index:1;
+}
+.home1
+{
+margin-left:-180px;
+margin-top:70px;
+position:fixed;
+z-index:1;
+}
+.search
+{
+margin-left:-240px;
+width:30px;
+height:30px;
+margin-top:80px;
+position:fixed;
+z-index:1;
+}
+.search1
+{
+margin-left:-180px;
+margin-top:70px;
+position:fixed;
+z-index:1;
+}
+.library
+{
+margin-top:120px;
+margin-left:-230px;
+position:fixed;
+z-index:1;
+}
+.plus
+{
+margin-top:120px;
+font-size:20px;
+position:fixed;
+z-index:1;
+}
+
+.playlist
+{
+word-spacing:5px;
+line-height:30px;
+background-color:black;
+height:150px;
+margin-top:150px;
+margin-left:-300px;
+width:339px;
+position:fixed;
+z-index:1;
+
+}
+.createplaylist
+{
+margin-top:250px;
+margin-left:-240px;
+height:100px;
+position:fixed;
+z-index:1;
+}
+.podcast
+{
+margin-top:350px;
+margin-left:-300px;
+background-color:black;
+height:50px;
+width:339px;
+position:fixed;
+z-index:1;
+}
+.legal
+{
+margin-top:390px;
+
+margin-left:-240px;
+line-height:30px;
+position:fixed;
+z-index:1;
+}
+
+.animalalbum
+{
+background-image:linear-gradient(to bottom,#663300,#422100,#422100,#000000);
+margin-left:-250px;
+width:1125px;
+height:600px;
+border-radius:15px 15px 15px 15px;
+}
+.animalalbum1
+{
+margin-top:70px;
+margin-left:-340px;
+border-radius:15px 15px 15px 15px;
+}
+.animalalbum2
+{
+width:1125px;
+height:240px;
+margin-left:-310px;
+background-color:white;
+margin-top:60px;
+background-image:linear-gradient(to right,#964B00,#663300);
+}
+.animaltext
+{
+margin-top:90px;
+width:800px;
+margin-left:-150px;
+font-size:100px;
+word-spacing:8px;
+}
+.animalplaybutton
+{
+margin-top:310px;
+width:10px;
+height:10px;
+margin-left:-450px;
+}
+
+
+
+.arjanvailey
+{
+background-image:linear-gradient(to bottom,#7abde5,#73a9e5 ,#6885e5,#000000 );
+margin-left:-250px;
+width:1125px;
+height:600px;
+border-radius:15px 15px 15px 15px;
+}
+.arjanvailey1
+{
+margin-top:70px;
+margin-left:-340px;
+border-radius:15px 15px 15px 15px;
+}
+.arjanvailey2
+{
+width:1125px;
+height:240px;
+margin-left:-310px;
+background-color:white;
+margin-top:60px;
+background-image:linear-gradient(to right,#6885e5,#000000 );
+}
+.arjanvaileytext
+{
+margin-top:90px;
+width:800px;
+margin-left:-150px;
+font-size:70px;
+word-spacing:8px;
+}
+.arjanvaileyplaybutton
+{
+margin-top:310px;
+width:10px;
+height:10px;
+margin-left:-450px;
+}
+.ektharajaplaybutton
+{
+margin-top:310px;
+width:10px;
+height:10px;
+margin-left:-450px;
+}
+.ektharajaalbum
+{
+background-image:linear-gradient(to bottom,#AC9362,#C3B091,#000000,#000000 );
+margin-left:-250px;
+width:1125px;
+height:600px;
+border-radius:15px 15px 15px 15px;
+}
+.ektharajaalbum1
+{
+margin-top:70px;
+margin-left:-340px;
+border-radius:15px 15px 15px 15px;
+}
+.ektharajaalbum2
+{
+width:1125px;
+height:240px;
+margin-left:-310px;
+background-color:white;
+margin-top:60px;
+background-image:linear-gradient(to right,#AC9362,#C3B091);
+}
+.ektharajatext
+{
+margin-top:90px;
+width:800px;
+margin-left:-150px;
+font-size:100px;
+word-spacing:8px;
+}
+.es1
+{
+width:1060px;
+
+margin-left:-360px;
+}
+.es1:hover
+{
+background-color:#34302d;
+}
+
+.stillrolinalbum
+{
+background-image:linear-gradient(to bottom,#D0EFE7,#ddf3ee,#000000,#000000);
+margin-left:-250px;
+width:1125px;
+height:600px;
+border-radius:15px 15px 15px 15px;
+}
+.stillrolinalbum1
+{
+margin-top:70px;
+margin-left:-340px;
+border-radius:15px 15px 15px 15px;
+}
+.stillrolinalbum2
+{
+width:1125px;
+height:240px;
+margin-left:-310px;
+background-color:white;
+margin-top:60px;
+background-image:linear-gradient(to right,#c4ebe1,#caede4,#000000);
+}
+.stillrolintext
+{
+margin-top:90px;
+width:800px;
+margin-left:-150px;
+font-size:100px;
+word-spacing:8px;
+}
+.ss1
+{
+width:1060px;
+
+margin-left:-360px;
+}
+.ss1:hover
+{
+background-color:#34302d;
+}
+.stillrolinplaybutton
+{
+margin-top:310px;
+width:10px;
+height:10px;
+margin-left:-450px;
+}
+.aashiquialbum
+{
+background-image:linear-gradient(to bottom,#D0EFE7,#ddf3ee,#000000,#000000);
+margin-left:-250px;
+width:1125px;
+height:600px;
+border-radius:15px 15px 15px 15px;
+}
+.aashiquialbum1
+{
+margin-top:70px;
+margin-left:-340px;
+border-radius:15px 15px 15px 15px;
+}
+.aashiquialbum2
+{
+width:1125px;
+height:240px;
+margin-left:-310px;
+background-color:white;
+margin-top:60px;
+background-image:linear-gradient(to right,#c4ebe1,#caede4,#000000);
+}
+.aashiquitext
+{
+margin-top:90px;
+width:800px;
+margin-left:-150px;
+font-size:100px;
+word-spacing:8px;
+}
+.aas1
+{
+width:1060px;
+
+margin-left:-360px;
+}
+aas1:hover
+{
+background-color:#34302d;
+}
+.aashiquiplaybutton
+{
+margin-top:310px;
+width:10px;
+height:10px;
+margin-left:-450px;
+}
+.heart
+{
+margin-top:260px;
+margin-left:-100px;
+width:10px;
+height:10px;
+}
+.dot
+{
+margin-top:260px;
+margin-left:-80px;
+width:10px;
+height:10px;
+}
+.Title
+{
+margin-top:320px;
+margin-left:-270px;
+}
+.line
+{
+margin-top:350px;
+margin-left:-430px;
+width:1125px;
+}
+.as1
+{
+width:1060px;
+
+margin-left:-360px;
+}
+.as1:hover
+{
+background-color:#34302d;
+}
+.as2
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as2:hover
+{
+background-color:#34302d;
+}
+.as3
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as3:hover
+{
+background-color:#34302d;
+}
+.as4
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as4:hover
+{
+background-color:#34302d;
+}
+.as5
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as5:hover
+{
+background-color:#34302d;
+}
+.as6
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as6:hover
+{
+background-color:#34302d;
+}
+.as7
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as7:hover
+{
+background-color: #34302d;
+}
+.as8
+{
+width:1060px;
+margin-left:-360px;
+margin-top:20px;
+}
+.as8:hover
+{
+background-color:#34302d;
+}
+.txt1
+{
+background-color:black;
+border:2px solid white;
+color:white;
+}
+.searchbox
+{
+margin-left:-200px;
+margin-top:20px;
+}
+.searchimg
+{
+margin-left:-330px;
+margin-top:150px;
+}
+.searchimg2
+{
+margin-left:-250px;
+margin-top:100px;
+width:400px;
+font-size:25px;
+}
+.tsongs
+{
+margin-left:-140px;
+margin-top:130px;
+color:white
+}
+.songs
+{
+margin-left:-270px;
+margin-top:90px;
+width:80px;
+height:20px;
+border-radius:20px 20px 20px 20px;
+}
+.artists
+{
+margin-left:-190px;
+margin-top:90px;
+width:80px;
+height:20px;
+border-radius:20px 20px 20px 20px;
+}
+.login
+{
+position:relative;
+z-index:1;
+width:70px;
+height:30px;
+border-radius:20px 20px 20px 20px;
+margin-left:1140px;
+margin-top:10px;
+}
+.loginname1
+{
+position:relative;
+z-index:1;
+width:70px;
+height:30px;
+background-color:red;
+}
+.signup
+{
+position:relative;
+z-index:1;
+width:70px;
+height:30px;
+border-radius:20px 20px 20px 20px;
+margin-left:1290px;
+margin-top:-60px;
+color:white
+}
+.signup:hover
+{
+text-shadow:2px 2px 2px white;
+}
+
+.signupbackground
+{
+
+
+width:800px;
+margin-left:-100px;
+margin-top:100px;
+height:600px;
+background-color:#1c1c1c;
+box-shadow:2px 2px 40px grey;
+}
+.signupinto
+{
+width:500px;
+height:100px;
+margin-top:200px;
+font-size:30px;
+margin-left:80px;
+}
+.signupusername
+{
+width:500px;
+height:100px;
+margin-top:300px;
+font-size:20px;
+margin-left:100px;
+}
+.signuptextbox1
+{
+width:300px;
+height:50px;
+margin-top:350px;
+font-size:10px;
+margin-left:-30px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+.signuptextbox1:hover
+{
+box-shadow:2px 2px 10px white;
+}
+.signuppassword
+{
+width:500px;
+height:100px;
+margin-top:420px;
+font-size:20px;
+margin-left:15px;
+}
+.signuptextbox2
+{
+width:300px;
+height:50px;
+margin-top:400px;
+font-size:10px;
+margin-left:140px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+.signuptextbox2:hover
+{
+box-shadow:2px 2px 10px white;
+}
+.signupbutton
+{
+margin-top:490px;
+margin-left:80px;
+width:300px;
+height:50px;
+border-radius:20px 20px 20px 20px;
+background-color: #32cd32 ;
+color:black;
+font-weight:bold;
+}
+.signupbutton:hover
+{
+box-shadow:2px 2px 10px #32cd32  ;
+}
+
+
+.loginbackground
+{
+
+
+width:800px;
+margin-left:-100px;
+margin-top:100px;
+height:600px;
+background-color:#1c1c1c;
+box-shadow:2px 2px 40px grey;
+}
+.logininto
+{
+width:500px;
+height:100px;
+margin-top:200px;
+font-size:30px;
+margin-left:130px;
+}
+.loginusername
+{
+width:500px;
+height:100px;
+margin-top:300px;
+font-size:20px;
+margin-left:100px;
+}
+.logintextbox1
+{
+width:300px;
+height:50px;
+margin-top:350px;
+font-size:10px;
+margin-left:-30px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+.logintextbox1:hover
+{
+box-shadow:2px 2px 10px white;
+}
+.loginpassword
+{
+width:500px;
+height:100px;
+margin-top:420px;
+font-size:20px;
+margin-left:15px;
+}
+.logintextbox2
+{
+width:300px;
+height:50px;
+margin-top:400px;
+font-size:10px;
+margin-left:140px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+.logintextbox2:hover
+{
+box-shadow:2px 2px 10px white;
+}
+.loginbutton
+{
+margin-top:490px;
+margin-left:80px;
+width:300px;
+height:50px;
+border-radius:20px 20px 20px 20px;
+background-color: #32cd32 ;
+color:black;
+font-weight:bold;
+}
+.loginbutton:hover
+{
+box-shadow:2px 2px 10px #32cd32  ;
+}
+.displaysong
+{
+position:relative;
+z-index:1;
+color:white
+width:300px;
+height:80px;
+margin-top:10PX;
+margin-left:800px;
+}
+.personalbackground
+{
+width:800px;
+margin-left:-100px;
+margin-top:100px;
+height:600px;
+background-color:#1c1c1c;
+box-shadow:2px 2px 40px grey;
+}
+.name
+{
+width:500px;
+height:100px;
+margin-top:300px;
+font-size:20px;
+margin-left:100px;
+}
+.name1
+{
+width:300px;
+height:50px;
+margin-top:350px;
+font-size:10px;
+margin-left:-30px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+.name1:hover
+
+{
+box-shadow:2px 2px 10px white;
+}
+lblcontactnumber
+{
+width:500px;
+height:100px;
+margin-top:420px;
+font-size:20px;
+margin-left:15px;
+}
+.txtcontactnumber
+{
+width:300px;
+height:50px;
+margin-top:400px;
+font-size:10px;
+margin-left:140px;
+border-radius:20px 20px 20px 20px;
+border:1px solid white;
+background-color:black;
+color:white;
+}
+txtcontactnumber:hover
+{
+
+box-shadow:2px 2px 10px white;
+}
+
+.Next
+{
+margin-top:490px;
+margin-left:80px;
+width:300px;
+height:50px;
+border-radius:20px 20px 20px 20px;
+background-color: #32cd32 ;
+color:black;
+font-weight:bold;
+}
+.next:hover
+{
+box-shadow:2px 2px 10px #32cd32  ;
+}
+</style>
+</head>
+<body>
+<main>
+<body onload="show()" bgcolor="black"  >
+<main id="m1">
+
+
+<table class="singer" id="singer" >
+<tr class="singer">
+<td style="padding-left:360px;"><font color="white" size=5>Popular artists</font></td></tr>
+<tr>
+<td style="padding-left:340px;" ><img src=""id="it1" style="
+border-radius:100%;width:200px;height:200px;"  ></td>
+
+<td style="padding-left:20px;" ><img src=""id="it2" style="border-radius:100%;width:200px;height:200px;"></td>
+<td style="padding-left:20px;"><img src=""id="it3"style="border-radius:100%;width:200px;height:200px;" ></td>
+<td style="padding-left:20px;"><img src=""id="it4" style="border-radius:100%;width:200px;height:200px;"></td>
+<td style="padding-left:20px;"><img src=""id="it5"  style="border-radius:100%;width:200px;height:200px;" ></td></tr></table>
+
+<table class="playbutton" id="playbutton">
+<tr class="playbutton">
+<td style="padding-left:200px;" ><img src=""id="itt1" style="border-radius:100%;width:50px;height:50px;"  ></td>
+
+<td style="padding-left:170px;" ><img src=""id="itt2" style="border-radius:100%;width:50px;height:50px;"></td>
+<td style="padding-left:170px;"><img src=""id="itt3"style="border-radius:100%;width:50px;height:50px;" ></td>
+<td style="padding-left:170px;"><img src=""id="itt4" style="border-radius:100%;width:50px;height:50px;"></td>
+<td style="padding-left:170px;"><img src=""id="itt5"  style="border-radius:100%;width:50px;height:50px;" ></td></tr></table>
+
+<table class="album" id="album">
+<tr >
+<td style="padding-left:30px;"><font color="white" size=5>Popular album</font></td></tr>
+
+
+<td   class="a1"><img src=""id="itttt1"onclick="a1()"style="border-radius:20%;width:200px;height:200px;" ></td>
+
+<td  class="a2"style="padding-left:25px;"  onclick="a2()"><img src=""id="itttt2"style="border-radius:20%;width:200px;height:200px;"  ></td>
+<td  class="a3"style="padding-left:25px;" onclick="a3()"><img src=""id="itttt3"style="border-radius:20%;width:200px;height:200px;"  ></td>
+<td  class="a4" style="padding-left:30px;"onclick="a4()"><img src=""id="itttt4"  style="border-radius:20%;width:200px;height:200px;" ></td>
+<td  class="a5"style="padding-left:10px;"><img src=""id="itttt5"style="border-radius:20%;width:200px;height:200px;" ></td></tr></table>
+
+<table class="playbutton1" id="playbutton1">
+<tr class="playbutton1">
+<td style="padding-left:200px;" ><img src=""id="ittttt1" style="border-radius:100%;width:50px;height:50px;"  ></td>
+
+<td style="padding-left:170px;" ><img src=""id="ittttt2" style="border-radius:100%;width:50px;height:50px;"></td>
+<td style="padding-left:170px;"><img src=""id="ittttt3"style="border-radius:100%;width:50px;height:50px;" ></td>
+<td style="padding-left:170px;"><img src=""id="ittttt4" style="border-radius:100%;width:50px;height:50px;"></td>
+<td style="padding-left:170px;"><img src=""id="ittttt5"  style="border-radius:100%;width:50px;height:50px;" ></td></tr></table>
+<button class="login" onclick="login()" id="login1">Login</button>
+<label class="signup" onclick="signup()" id="signup1">Sign up</label>
+<label class="loginname" onclick="loginname()" id="loginname1"></button>
+
+</main>
+<main2>
+<div class="home" id="h1"></div>
+<div class="logo"><img src="surmandal1.png"width=200px height=100px ></div><br><br>
+<div class="homelogo" onclick="home()"><img src="home.jpg"width=100% height=100%></div><br>
+<div class="home1" onclick="home()"><font color="grey" size=4 face="Arial"><b>Home</b></font></div><br><br>
+<div class="search"><img src="searchlogo.png"width=100% height=100% ></div><br>
+<div class="search1"><font color="grey" size=4 face="Arial" onclick="search()"><b>Search</b></font></div>
+<div class="library"><font color="grey" size=4 face="Arial"><b>Your Library</b></font></div>
+<div class="plus"><font color="grey" size=5 face="Arial">+</font></div>
+<div class="playlist"><font color="white" size=3 face="Arial"><br>&nbsp &nbsp &nbsp  Create your first playlist<br>&nbsp &nbsp &nbsp It's easy,we'llhelp you</font></div>
+<div class="createplaylist"><button style="border-radius:15px 15px 15px 15px; height:35px;width:130px"><b>create playlist</b></button></div>
+<div class="podcast"><font color="white" size=3 face="Arial"> <br>&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbspLet's find some podcasts to follow</font></div><br><br>
+
+<div class="legal"><font color="grey" size=2 face="Arial">Legal&nbsp &nbsp Safety & privacy center&nbsp &nbsp Privacy policy<br>Cookies &nbsp &nbsp &nbspAbout Ads&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbspAccessibility<br>Cookies</font></div>
+
+</main2>
+<main3 id="m3">
+<div class="animalalbum" id="animalalbum"></div>
+<div class="animalalbum2" id="animalalbum"></div>
+<div class="animalalbum1" id="animalalbum1"><img src="animal.jpg"style="border-radius:20%;width:200px;height:200px;"> </div>
+<div class="animaltext"><font color=white face="Arial"><b>ANIMAL</b></font><br><font size=3 color=white><b>Manan Bhardwaj . Vishal Mihra . Janni . 2023 .8 songs,31 min 3 sec</b></font></div>
+<div class="animalplaybutton"><img src="playbutton.jpg"style="border-radius:100%; width:70px;height:70px;"></div>
+<div class="heart"><img src="heart.jpg" Style="width:30px;height:30px;"></div>
+<div class="dot"><font color=white size=5></b>...</b></font></div>
+<div class="Title"><font size=3 color=white face="arial">#Title</div>
+<div class="line"><hr></div>
+<div class="as1" onclick="as1()"id="as1" ><font size=3 color=white face="arial" ><b>1.Arjan Vaily</b><br></font><font size=2 face="arial" color=grey>Manan Bhardwaj , Bhupinder Babbal</font></div>
+<div class="as2" onclick="as2()"id="as2"><font size=3 color=white face="arial"><b>2.Hua Main</b><br></font><font size=2 face="arial" color=grey>Raghav chaitanya, Manoj muntashir,pritam</font></div>
+<div class="as3" onclick="as3()"id="as3"><font size=3 color=white face="arial"><b>3.Satranga</b><br></font><font size=2 face="arial" color=grey>Arjit singh Shreyas puranik,sidharth</font></div>
+
+<div class="as4" onclick="as4()"id="as4"><font size=3 color=white face="arial"><b>4.Papa meri jaan</b><br></font><font size=2 face="arial" color=grey>Arjit singh Shreyas puranik,sidharth</font></div>
+
+<div class="as5" onclick="as5()"id="as5"><font size=3 color=white face="arial"><b>5.Kashmir</b><br></font><font size=2 face="arial" color=grey>Manan Bhardwaj, Shreya Ghosal</font></div>
+
+<div class="as6" onclick="as6()"id="as6"><font size=3 color=white face="arial"><b>6.Phele bhi main</b><br></font><font size=2 face="arial" color=grey>Vishal mishra,Raj shekhar</font></div>
+
+<div class="as7" onclick="as7()"id="as7"><font size=3 color=white face="arial"><b>7.Sarri duniya jala denge</b><br></font><font size=2 face="arial" color=grey>Janni, B parak</font></div>
+
+<div class="as8" onclick="as8()"id="as8"><font size=3 color=white face="arial"><b>8. Haiwaan</b><br></font><font size=2 face="arial" color=grey>Aashim kemson</font></div>
+
+<audio id="animalau1"><source src="animalsong1.mp3.mp3"></audio>
+<audio id="animalau2"><source src="animalsong2.mp3.mp3"></audio>
+<audio id="animalau3"><source src="animalsong3.mp3.mp3"></audio>
+<audio id="animalau4"><source src="animalsong4.mp3.mp3"></audio>
+<audio id="animalau5"><source src="animalsong5.mp3.mp3"></audio>
+<audio id="animalau6"><source src="animalsong6.mp3.mp3"></audio>
+<audio id="animalau7"><source src="animalsong7.mp3.mp3"></audio>
+<audio id="animalau8"><source src="animalsong8.mp3.mp3"></audio>
+</main3>
+<main4 id="m4">
+<div class="ektharajaalbum" id="ektharajaalbum"></div>
+<div class="ektharajaalbum2" id="ektharajaalbum"></div>
+<div class="ektharajaalbum1" id="ektharajaalbum1"><img src="ektharaja.jpg"style="border-radius:20%;width:200px;height:200px;"> </div>
+<div class="ektharajatext"><font color=white face="Arial"><b>EK THA RAJA</b></font><br><font size=3 color=white><b>Badshah.2024.16 songs,47 min 43 sec</b></font></div>
+<div class="ektharajaplaybutton"><img src="playbutton.jpg"style="border-radius:100%; width:70px;height:70px;"></div>
+<div class="heart"><img src="heart.jpg" Style="width:30px;height:30px;"></div>
+<div class="dot"><font color=white size=5></b>...</b></font></div>
+<div class="Title"><font size=3 color=white face="arial">#Title</div>
+<div class="line"><hr></div>
+<div class="es1" onclick="es1()"><font size=3 color=white face="arial"><b>1.God Damn</b><br></font><font size=2 face="arial" color=grey>Badshah,karan Aujla,Hiten</font></div>
+<audio id="ektharajaau1"><source src="ektharajasong1.mp3.mp3"></audio>
+</main4>
+<main5 id="m5">
+<div class="stillrolinalbum" id="stillrolinalbum"></div>
+<div class="stillrolinalbum2" id="stillrolinalbum"></div>
+<div class="stillrolinalbum1" id="stillrolinalbum1"><img src="stillrolin.jpg"style="border-radius:20%;width:200px;height:200px;"> </div>
+<div class="stillrolintext"><font color=white face="Arial"><b>Still Rollin</b></font><br><font size=3 color=white><b>Badshah.2024.16 songs,47 min 43 sec</b></font></div>
+<div class="stillrolinplaybutton"><img src="playbutton.jpg"style="border-radius:100%; width:70px;height:70px;"></div>
+<div class="heart"><img src="heart.jpg" Style="width:30px;height:30px;"></div>
+<div class="dot"><font color=white size=5></b>...</b></font></div>
+<div class="Title"><font size=3 color=white face="arial">#Title</div>
+<div class="line"><hr></div>
+<div class="ss1" onclick="ss1()"><font size=3 color=white face="arial"><b>1.Still Rollin</b><br></font><font size=2 face="arial" color=grey>Shubh</font></div>
+<audio id="stillrolinau1"><source src="stillrolinsong1.mp3.mp3"></audio>
+</main5>
+<main6 id="m6">
+<div class="aashiquialbum" id="aashiquialbum"></div>
+<div class="aashiquialbum2" id="aashiquialbum"></div>
+<div class="aashiquialbum1" id="aashiquialbum1"><img src="aashiqui.jpg"style="border-radius:20%;width:200px;height:200px;"> </div>
+<div class="aashiquitext"><font color=white face="Arial"><b>Aashiqui 2</b></font><br><font size=3 color=white><b>Mithoon . Ankit Tiwary . Jeet ganguli . 2013 . 12 songs,54 min 41 sec</b></font></div>
+<div class="aashiquiplaybutton"><img src="playbutton.jpg"style="border-radius:100%; width:70px;height:70px;"></div>
+<div class="heart"><img src="heart.jpg" Style="width:30px;height:30px;"></div>
+<div class="dot"><font color=white size=5></b>...</b></font></div>
+<div class="Title"><font size=3 color=white face="arial">#Title</div>
+<div class="line"><hr></div>
+<div class="aas1" onclick="aas1()"><font size=3 color=white face="arial"><b>1.Tum hi ho</b><br></font><font size=2 face="arial" color=grey>Mithonn,Arjit singh</font></div>
+<audio id="aashiquiau1"><source src="aashiquisong1.mp3.mp3"></audio>
+</main6>
+
+
+<main7 id="m7">
+<div class="searchbox"><input type="text" onkeyup="searchbox()" id="txt1"class="txt1" placeholder="What do you want to play?" Style=" border-radius:20px 20px 20px 20px;width:400px; height:50px;"></input  > </div>
+
+<div class="searchimg2"id="searchimg2">Browse all</div>
+<table class="searchimg" id="searchimg">
+<tr>
+<td Style="padding:10px" ><img src=""id="s1" style="border-radius:10px 10px 10px 10px;width:250px;height:150px;"   ></td>
+<td Style="padding:10px"><img src=""id="s2" style="border-radius:10px 10px 10px 10px;width:250px;height:150px;" ></td>
+<td Style="padding:10px"><img src=""id="s3"style="border-radius:10px 10px 10px 10px;width:250px;height:150px;" ></td>
+<td Style="padding:10px"><img src=""id="s4"style="border-radius:10px 10px 10px 10px;width:250px;height:150px;"></td></tr>
+<tr>
+<td Style="padding:10px"><img src=""id="s5"  style="border-radius:10px 10px 10px 10px;width:250px;height:150px;" ></td>
+<td Style="padding:10px"><img src=""id="s6" style="border-radius:10px 10px 10px 10px;width:250px;height:150px;"></td>
+<td ><img src=""id="s7" style="border-radius:10px 10px 10px 10px;width:250px;height:150px;"></td>
+<td Style="padding:10px"><img src=""id="s8" style="border-radius:10px 10px 10px 10px;width:250px;height:150px;"></td></tr></table>
+
+<table id="t0" class="tsongs">
+<tr><td   id="t1" onclick="t1()" ></td></tr>
+<tr><td id="t2" onclick="t2()"></td></tr>
+<tr ><td id="t3"onclick="t3()"></td></tr>
+<tr><td id="t4" onclick="t4()"></td></tr>
+<tr><td id="t5" onclick="t5()"></td></tr>
+<tr><td id="t6" onclick="t6()"></td></tr>
+<tr><td  id="t7"onclick="t7()"></td></tr>
+<tr><td id="t8"onclick="t8()"></td></tr>
+<tr><td id="t9" onclick="t9()"></td></tr> 
+<tr><td id="t10"onclick="t10()"></td></tr>
+<tr><td id="t11"onclick="t11()"></td></tr></table>
+<table id="tt0">
+<tr><td onclick="t11()"  id="t11"  ></td>
+<td id="t12" onclick="t12()"></td>
+<td id="t13"onclick="t13()"></td>
+<td id="t14" onclick="t14()"></td>
+<td id="t15" onclick="t15()"></td></tr></table>
+<button class="songs" id="songs" onclick="songs()">Songs</button>
+<button class="artists" id="artists" onclick="artists()">Artists </button> 
+</main7>
+<main8 id="m8">
+<div class="arjanvailey" id="arjanvailey"></div>
+<div class="arjanvailey2 " id="arjanvailey2"></div>
+<div class="arjanvailey1" ><img src=""style="border-radius:20%;width:200px;height:200px;" id="arjanvailey1"> </div>
+<div class="arjanvaileytext" id="arjanvaileytext"><font color=white face="Arial" ><b> </b></font><br><font size=3 color=white><b></b></font></div>
+<div class="arjanvaileyplaybutton"><img src="playbutton.jpg"style="border-radius:100%; width:70px;height:70px;"></div>
+<div class="heart"><img src="heart.jpg" Style="width:30px;height:30px;"></div>
+<div class="dot"><font color=white size=5></b>...</b></font></div>
+<div class="Title"><font size=3 color=white face="arial">#Title</div>
+<div class="line"><hr></div>
+<div class="sss1" ><Label id="songg" onclick="songgplay()"></Label></div>
+
+<audio id="playsong1" ><source src=""></audio>
+</main8>
+<main9 id="m9">
+<div class="loginbackground"></div>
+<div class="logininto">Log in to Spotify</div>
+<label class="loginusername">Email  or Username</label>
+<input type="text" placeholder="Email or Username" class="logintextbox1" id="logintextbox1"></input>
+<label class="loginpassword">password</label>
+<input type="text" placeholder="password" class="logintextbox2" id="logintextbox2"></input>
+<button class="loginbutton" onclick="loginbutton()">Log In</button>
+</main9>
+<main10 id="m10">
+<div class="signupbackground"></div>
+<div class="signupinto">Sign up to start Listening</div>
+<label class="signupusername">Email address</label>
+<input type="text" placeholder="Email address" class="signuptextbox1" id="signuptextbox1"></input>
+<label class="signuppassword">password</label>
+<input type="text" placeholder="password" class="signuptextbox2" id="signuptextbox2"></input>
+<button class="signupbutton" onclick="signupbutton()">Next</button>
+
+</main10>
+<main11 id="m11">
+<div class="personalbackground"></div>
+<div class="signupinto">Sign up to start Listening</div>
+<label class="name">Enter your name</label>
+<input type="text" placeholder="Enter  your name" class="name1" id="name1"></input>
+<label class="lblcontactnumber"></label>
+<input type="text" placeholder="+91" class="txtcontactnumber" id="txtcontactnumber"></input>
+<button class="next" onclick="next()">sign in</button>
+
+
+</main11>
+<label class="displaysong" id="displaysong1"></label>
+</body>
+</html>
